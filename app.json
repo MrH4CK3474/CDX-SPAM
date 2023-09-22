@@ -18,62 +18,62 @@
           },  
         "BOT_TOKEN": {  
           "description": "",  
-          "value": "",  
+          "value": "6391672562:AAG3zdTD5Ut31QWbG-N4agx5JcFnxBweHjw",  
           "required": true  
         },  
         "BOT_TOKEN2": {  
           "description": "",  
-          "value": "",  
+          "value": "6187080077:AAFaDhB8PLIhTvnr5YBXslG5QcfG8DZ0of4",  
           "required": true  
         },  
         "BOT_TOKEN3": {  
           "description": "",  
-          "value": "",  
+          "value": "6064260214:AAGTYjf7TflbtYOHOVFSrtNbh4WDhXFzL0U",  
           "required": true  
         },  
         "BOT_TOKEN4": {  
           "description": "",  
-          "value": "",  
+          "value": "6358806751:AAEupi6C-lmHyMexsKzTYPBj_NCV7yeSEtU",  
           "required": true  
         },  
         "BOT_TOKEN5": {  
           "description": "",  
-          "value": "",  
+          "value": "6311352772:AAF0XHFL__WYlVrCPhHq7i1RmFTt7zDHg2Y",  
           "required": true  
         },  
         "BOT_TOKEN6": {  
           "description": "",  
-          "value": "",  
+          "value": "6692973687:AAGi1nb1zy1Fkn78TBOg5Bn4hFI5SH-in48",  
           "required": true  
         },  
         "BOT_TOKEN7": {  
           "description": "",  
-          "value": "",  
+          "value": "6608107380:AAH82ogTTdMhcuE4EGkGJOLM4lskb2QgxV8",  
           "required": true  
         },  
         "BOT_TOKEN8": {  
           "description": "",  
-          "value": "",  
+          "value": "6589376079:AAF-enSg931YEiBp8H3ayE4isMKafofVhZk",  
           "required": true  
         },  
         "BOT_TOKEN9": {  
           "description": "",  
-          "value": "",  
+          "value": "6469150849:AAHWQegLn4CR1MUVFKNtk3xV8pKzDNt2jec",  
           "required": true  
         },  
         "BOT_TOKEN10": {  
           "description": "",  
-          "value": "",  
+          "value": "6288480865:AAGWIJUwMCMjOSs-phAQ69y9PKir6O-4ies",  
           "required": true  
         },  
          "SUDO_USER": {  
               "description": "",  
-              "value": "6123932615",  
+              "value": "",  
               "required": false 
           },  
         "OWNER_ID": {  
               "description": "",  
-              "value": "",  
+              "value": "6123932615",  
               "required": true  
           },  
           "HEROKU_API_KEY": {  
