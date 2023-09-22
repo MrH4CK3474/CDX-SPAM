@@ -18,52 +18,52 @@
            },   
          "BOT_TOKEN": {   
            "description": "",   
-           "value": "6391672562:AAG3zdTD5Ut31QWbG-N4agx5JcFnxBweHjw",   
+           "value": "",   
            "required": true   
          },   
          "BOT_TOKEN2": {   
            "description": "",   
-           "value": "6187080077:AAFaDhB8PLIhTvnr5YBXslG5QcfG8DZ0of4",   
+           "value": "",   
            "required": true   
          },   
          "BOT_TOKEN3": {   
            "description": "",   
-           "value": "6064260214:AAGTYjf7TflbtYOHOVFSrtNbh4WDhXFzL0U",   
+           "value": "",   
            "required": true   
          },   
          "BOT_TOKEN4": {   
            "description": "",   
-           "value": "6358806751:AAEupi6C-lmHyMexsKzTYPBj_NCV7yeSEtU",   
+           "value": "",   
            "required": true   
          },   
          "BOT_TOKEN5": {   
            "description": "",   
-           "value": "6311352772:AAF0XHFL__WYlVrCPhHq7i1RmFTt7zDHg2Y",   
+           "value": "",   
            "required": true   
          },   
          "BOT_TOKEN6": {   
            "description": "",   
-           "value": "6692973687:AAGi1nb1zy1Fkn78TBOg5Bn4hFI5SH-in48",   
+           "value": "",   
            "required": true   
          },   
          "BOT_TOKEN7": {   
            "description": "",   
-           "value": "6688269909:AAGXyxtsoImCxYJFbeSx1cl3SI2ybQN-8R0" 
+           "value": "" 
            "required": true   
          },   
          "BOT_TOKEN8": {   
            "description": "",   
-           "value": "5670439549:AAG8TTtYkK56V5G8ngZ9R_2Gs5qhkO1Qdr4",   
+           "value": "",   
            "required": true   
          },   
          "BOT_TOKEN9": {   
            "description": "",   
-           "value": "6336147033:AAE6SJALq1HAQXiqX8CzUvL24OK3FQ_w1IU",   
+           "value": "",   
            "required": true   
          },   
          "BOT_TOKEN10": {   
            "description": "",   
-           "value": "6288480865:AAGWIJUwMCMjOSs-phAQ69y9PKir6O-4ies",   
+           "value": "",   
            "required": true   
          },   
           "SUDO_USER": {   
