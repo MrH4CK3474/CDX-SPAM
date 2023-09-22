@@ -30,7 +30,7 @@ async def echo(event):
         elif int(user_id) == OWNER_ID:
             await event.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
         elif int(user_id) in SUDO_USERS:
-            await event.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+            await event.reply("»𝗕𝗘𝗧𝗔 𝗬𝗘 𝗔𝗣𝗡𝗔 𝗕𝗔𝗡𝗗𝗔 𝗛𝗔𝗜", parse_mode=None, link_preview=None)
         else:
             chat_id = event.chat_id
             try:
