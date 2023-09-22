@@ -2,7 +2,7 @@ from config import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10, SUDO_USERS
 from telethon import events, Button
 
 
-PythonHelp = f"★ 𝗖𝗢𝗗𝗘𝗫  𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @itsz_shivam**"
+PythonHelp = f"★ 𝗖𝗢𝗗𝗘𝗫  𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ:-  [☆𝗖ⓞ𝗗𝗘𝗫☆](https://t.me/Op_CoDeX)
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -18,7 +18,7 @@ PythonHelp = f"★ 𝗖𝗢𝗗𝗘𝗫  𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n
 async def help(event):
     if event.sender_id in SUDO_USERS:
        await event.client.send_file(event.chat_id,
-                                  " https://telegra.ph/file/0de98f5fe87df8e6b514d.jpg",
+                                  " https://graph.org/file/8818c5e9470d2c6920a97.jpg",
                                   caption=PythonHelp,
                                   buttons=[
            [
@@ -29,8 +29,8 @@ async def help(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [    
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/about_skshivam"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/fun_here")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Op_CODEX"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Op_CODEX")
            ],
            ],
            )
@@ -54,7 +54,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @itsz_shivam**
+**[☆𝗖ⓞ𝗗𝗘𝗫☆](https://t.me/Op_CoDeX)
 """
 
                  
@@ -86,7 +86,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© @itsz_shivam**
+**[☆𝗖ⓞ𝗗𝗘𝗫☆](https://t.me/Op_CoDeX)
 """
 
 spam_msg = f"""
@@ -103,7 +103,7 @@ spam_msg = f"""
   1) {hl}hang <counter> (you can reply any message if you want bot to reply that message and do spamming)
 
 
-** © @itsz_shivam**
+**[☆𝗖ⓞ𝗗𝗘𝗫☆](https://t.me/Op_CoDeX)
 """                     
            
            
@@ -130,8 +130,8 @@ async def helpback(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/about_skshivam"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/fun_here")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Op_CODEX"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Op_CODEX")
            ],
            ],
         )           
