@@ -12,7 +12,7 @@ PythonButton = [
         Button.url("☆ 𝐒υρρσя𝐓", "https://t.me/Op_CODEX")
         ],
         [
-        Button.url("☆ 𝐑ꫀρ𝐎", "https://t.me/fun_here")
+        Button.url("☆ 𝗖ⓞ𝗗𝗘𝗫 ☆", "https://t.me/Op_CODEX")
         ]
         ]
 
@@ -35,7 +35,7 @@ async def start(event):
         BotId = AltBot.id
         TEXT = f"**𝐇𝐞𝐲 [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\n𝐈 𝐀𝐦 [{BotName}](tg://user?id={BotId})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
         TEXT += f"» **✦ 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐃 𝐁𝐘 :~ [☆𝗖ⓞ𝗗𝗘𝗫☆](https://t.me/Op_CoDeX)**\n\n"
-        TEXT += f"» **𝐎𝐏 𝐒𝐏𝐀𝐌 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `3.2`\n"
+        TEXT += f"» **𝗖ⓞ𝗗𝗘𝗫 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `3.2`\n"
         TEXT += f"» **𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍:** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                 event.chat_id,
