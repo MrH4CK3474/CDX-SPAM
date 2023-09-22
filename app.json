@@ -1,102 +1,103 @@
-{
-  "name": "☆ 🇨Ⓞ𝗗𝜩🇽 ☆",
-  "logo": "https://graph.org/file/fd6932a2f2c9ff0ac02a9.jpg",
-  "keywords": [
-    "telegram",
-    "telethon",
-    "telegram-bot",
-    "CoDeX",
-    "SpamBots"
-  ],
-  "repository": "https://github.com/MrHacker5575/CoDeX_SPAM",
-  "env": {
-    "CMD_HNDLR": {
-      "description": "",
-      "value": ".",
-      "required": false
-    },
-    "BOT_TOKEN": {
-      "description": "",
-      "value": "6391672562:AAG3zdTD5Ut31QWbG-N4agx5JcFnxBweHjw",
-      "required": true
-    },
-    "BOT_TOKEN2": {
-      "description": "",
-      "value": "6187080077:AAFaDhB8PLIhTvnr5YBXslG5QcfG8DZ0of4",
-      "required": true
-    },
-    "BOT_TOKEN3": {
-      "description": "",
-      "value": "6064260214:AAGTYjf7TflbtYOHOVFSrtNbh4WDhXFzL0U",
-      "required": true
-    },
-    "BOT_TOKEN4": {
-      "description": "",
-      "value": "6358806751:AARyUEupi6C-lmHyMexsKzTYPBj_NCV7yeSEtU",
-      "required": true
-    },
-    "BOT_TOKEN5": {
-      "description": "",
-      "value": "6311352772:AAF0XHFL__WYlVrCPhHq7i1RmFTt7zDHg2Y",
-      "required": true
-    },
-    "BOT_TOKEN6": {
-      "description": "",
-      "value": "6692973687:AAGi1nb1zy1Fkn78TBOg5Bn4hFI5SH-in48",
-      "required": true
-    },
-    "BOT_TOKEN7": {
-      "description": "",
-      "value": "6688269909:AAGXyxtsoImCxYJFbeSx1cl3SI2ybQN-8R0",
-      "required": true
-    },
-    "BOT_TOKEN8": {
-      "description": "",
-      "value": "5670439549:AAG8TTtYkK56V5G8ngZ9R_2Gs5qhkO1Qdr4",
-      "required": true
-    },
-    "BOT_TOKEN9": {
-      "description": "",
-      "value": "6336147033:AAE6SJALq1HAQXiqX8CzUvL24OK3FQ_w1IU",
-      "required": true
-    },
-    "BOT_TOKEN10": {
-      "description": "",
-      "value": "6288480865:AAGWIJUwMCMjOSs-phAQ69y9PKir6O-4ies",
-      "required": true
-    },
-    "SUDO_USER": {
-      "description": "",
-      "value": "",
-      "required": false
-    },
-    "OWNER_ID": {
-      "description": "",
-      "value": "6123932615",
-      "required": true
-    },
-    "HEROKU_API_KEY": {
-      "description": "",
-      "value": "746d6c35-48b7-4638-86e9-7863f4e84db1",
-      "required": false
-    },
-    "HEROKU_APP_NAME": {
-      "description": "",
-      "value": "your-heroku-app-name",  // Replace with your Heroku app name
-      "required": false
-    }
-  },
-  "addons": [
-    {
-      "plan": "heroku-postgresql",
-      "options": {
-        "version": "12"
-      }
-    }
-  ],
-  "buildpacks": [
-    {
-      "url": "heroku/python"
-    }
-  ]
-}
+{   
+       "name": "☆ 🇨Ⓞ𝗗𝜩🇽 ☆.",   
+       "logo": "https://graph.org/file/fd6932a2f2c9ff0ac02a9.jpg",   
+       "keywords": [   
+           "telegram",   
+           "telethon",   
+           "telegram-bot",   
+           "CoDeX",   
+           "SpamBots"   
+       ],   
+       "repository": "https://github.com/MrHacker5575/CoDeX_SPAM",   
+  
+   "env": {   
+        "CMD_HNDLR": {   
+               "description": "",   
+               "value": ".",   
+               "required": false   
+           },   
+         "BOT_TOKEN": {   
+           "description": "",   
+           "value": "6391672562:AAG3zdTD5Ut31QWbG-N4agx5JcFnxBweHjw",   
+           "required": true   
+         },   
+         "BOT_TOKEN2": {   
+           "description": "",   
+           "value": "6187080077:AAFaDhB8PLIhTvnr5YBXslG5QcfG8DZ0of4",   
+           "required": true   
+         },   
+         "BOT_TOKEN3": {   
+           "description": "",   
+           "value": "6064260214:AAGTYjf7TflbtYOHOVFSrtNbh4WDhXFzL0U",   
+           "required": true   
+         },   
+         "BOT_TOKEN4": {   
+           "description": "",   
+           "value": "6358806751:AAEupi6C-lmHyMexsKzTYPBj_NCV7yeSEtU",   
+           "required": true   
+         },   
+         "BOT_TOKEN5": {   
+           "description": "",   
+           "value": "6311352772:AAF0XHFL__WYlVrCPhHq7i1RmFTt7zDHg2Y",   
+           "required": true   
+         },   
+         "BOT_TOKEN6": {   
+           "description": "",   
+           "value": "6692973687:AAGi1nb1zy1Fkn78TBOg5Bn4hFI5SH-in48",   
+           "required": true   
+         },   
+         "BOT_TOKEN7": {   
+           "description": "",   
+           "value": "6688269909:AAGXyxtsoImCxYJFbeSx1cl3SI2ybQN-8R0" 
+           "required": true   
+         },   
+         "BOT_TOKEN8": {   
+           "description": "",   
+           "value": "5670439549:AAG8TTtYkK56V5G8ngZ9R_2Gs5qhkO1Qdr4",   
+           "required": true   
+         },   
+         "BOT_TOKEN9": {   
+           "description": "",   
+           "value": "6336147033:AAE6SJALq1HAQXiqX8CzUvL24OK3FQ_w1IU",   
+           "required": true   
+         },   
+         "BOT_TOKEN10": {   
+           "description": "",   
+           "value": "6288480865:AAGWIJUwMCMjOSs-phAQ69y9PKir6O-4ies",   
+           "required": true   
+         },   
+          "SUDO_USER": {   
+               "description": "",   
+               "value": "",   
+               "required": false  
+           },   
+         "OWNER_ID": {   
+               "description": "",   
+               "value": "6123932615",   
+               "required": true   
+           },   
+           "HEROKU_API_KEY": {   
+               "description": "",   
+               "value": "746d6c35-48b7-4638-86e9-7863f4e84db1",   
+               "required": false    
+           },   
+           "HEROKU_APP_NAME": {   
+               "description": "",   
+             "value": "",   
+             "required": false     
+           }   
+       },   
+     "addons": [   
+       {   
+         "plan": "heroku-postgresql",   
+         "options": {   
+           "version": "12"   
+         }   
+       }   
+     ],   
+     "buildpacks": [   
+           {   
+               "url": "heroku/python"   
+           }   
+       ]   
+   }
