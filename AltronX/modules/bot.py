@@ -24,7 +24,6 @@ async def ping(e):
         end = datetime.now()
         mp = (end - start).microseconds / 1000
         await altron.edit(f"☆ 🇨Ⓞ𝗗𝜩🇽 ☆ 
- 
   ➪ 𝗣ɨɳɠ: {ms} ᴍs 
   ➪ 𝗨թƬɨмє:{uptime} 
   ➪ ⩔єяនɨ០ɳ: {version}")
