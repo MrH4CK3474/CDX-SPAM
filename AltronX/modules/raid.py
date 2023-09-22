@@ -27,9 +27,9 @@ async def spam(e):
             a = await e.client.get_entity(message)
             g = a.id
             if int(g) in ALTRON:
-                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» 𝗬𝗘 𝗧𝗘𝗥𝗔 𝗕𝗔𝗔𝗣 𝗛𝗔𝗜", parse_mode=None, link_preview=None)
             elif int(g) in SUDO_USERS:
-                await e.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» 𝗕𝗘𝗧𝗔 𝗬𝗘 𝗔𝗣𝗡𝗔 𝗕𝗔𝗡𝗗𝗔 𝗛𝗔𝗜", parse_mode=None, link_preview=None)
             else:
                 c = a.first_name
                 username = f"[{c}](tg://user?id={g})"
@@ -45,9 +45,9 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             if int(g) in ALTRON:
-                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» 𝗬𝗘 𝗧𝗘𝗥𝗔 𝗕𝗔𝗔𝗣 𝗛𝗔𝗜 ", parse_mode=None, link_preview=None)
             elif int(g) in SUDO_USERS:
-                await e.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» 𝗕𝗘𝗧𝗔 𝗬𝗘 𝗔𝗣𝗡𝗔 𝗕𝗔𝗡𝗗𝗔 𝗛𝗔𝗜", parse_mode=None, link_preview=None)
             else:
                 c = b.first_name
                 counter = int(mkraid[0])
@@ -104,9 +104,9 @@ async def _(e):
             a = await e.client.get_entity(message)
             user_id = int(a.id)
             if int(user_id) in ALTRON:
-                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» 𝗬𝗘 𝗧𝗘𝗥𝗔 𝗕𝗔𝗔𝗣 𝗛𝗔𝗜", parse_mode=None, link_preview=None)
             elif int(user_id) == OWNER_ID:
-                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» 𝗕𝗘𝗧𝗔 𝗬𝗘 𝗔𝗣𝗡𝗔 𝗕𝗔𝗡𝗗𝗔 𝗛𝗔𝗜", parse_mode=None, link_preview=None)
             elif int(user_id) in SUDO_USERS:
                 await e.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
             else:
@@ -121,9 +121,9 @@ async def _(e):
             b = await e.client.get_entity(a.sender_id)
             user_id = int(b.id)
             if int(user_id) in ALTRON:
-                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» 𝗬𝗘 𝗧𝗘𝗥𝗔 𝗕𝗔𝗔𝗣 𝗛𝗔𝗜", parse_mode=None, link_preview=None)
             elif int(user_id) == OWNER_ID:
-                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» 𝗕𝗘𝗧𝗔 𝗬𝗘 𝗔𝗣𝗡𝗔 𝗕𝗔𝗡𝗗𝗔 𝗛𝗔𝗜", parse_mode=None, link_preview=None)
             elif int(user_id) in SUDO_USERS:
                 await e.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
             else:
