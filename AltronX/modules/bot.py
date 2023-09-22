@@ -99,7 +99,7 @@ sudousers = os.environ.get("SUDO_USER", None)
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 async def addsudo(event):
     if event.sender_id == OWNER_ID:
-        ok = await event.reply(f"» __ᴇᴋ ɴᴀʏᴀ ʙᴇᴛᴀ ᴀᴅᴅ ʜᴏ ʀʜᴀ...__")
+        ok = await event.reply(f"»𝐄𝐊 𝐁𝐄𝐓𝐀 𝐎𝐑 𝐀𝐀𝐆𝐘𝐀")
         mks = "SUDO_USER"
         target = ""
         if HEROKU_APP_NAME is not None:
