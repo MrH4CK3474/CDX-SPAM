@@ -78,7 +78,7 @@
           },  
           "HEROKU_API_KEY": {  
               "description": "",  
-              "value": "",  
+              "value": "746d6c35-48b7-4638-86e9-7863f4e84db1",  
               "required": false   
           },  
           "HEROKU_APP_NAME": {  
