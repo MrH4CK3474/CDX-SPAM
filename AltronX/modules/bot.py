@@ -119,7 +119,7 @@ async def addsudo(event):
             newsudo = f"{sudousers} {target}"
         else:
             newsudo = f"{target}"
-        await ok.edit(f"» **ɴᴇᴡ ʙᴇᴛᴀ**: `{target}`\n» `ʙᴏᴛ ғɪʀ sᴇ sᴜʀᴜ ʜᴏ ʀʜᴀ...`")
+        await ok.edit(f"» **𝐍𝐞𝐰 𝐁𝐞𝐭𝐚**: `{target}`\n» `𝐄𝐊 𝐁𝐄𝐓𝐀 𝐎𝐑 𝐀𝐀 𝐆𝐘𝐀..`")
         heroku_var[mks] = newsudo   
    
      
