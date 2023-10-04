@@ -23,11 +23,7 @@ async def ping(e):
         altron = await e.reply(f"»⚡ 🇨Ⓞ𝗗𝜩🇽 💨", parse_mode=None, link_preview=None)
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"☆ 🇨Ⓞ𝗗𝜩🇽 ☆ 
-
- ➪ 𝗣ɨɳɠ: 600.339 ᴍs 
- ➪ 𝗨թƬɨмє: 9m:50s 
- ➪ ⩔єяនɨ០ɳ: v0.6")
+        await altron.edit(f"☆ 🇨Ⓞ𝗗𝜩🇽 ☆➪ 𝗣ɨɳɠ: 600.339 ᴍs➪ 𝗨թƬɨмє: 9m:50s➪ ⩔єяនɨ០ɳ: v0.6")
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
