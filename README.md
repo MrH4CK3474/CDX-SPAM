@@ -9,7 +9,7 @@
    > ⭐️ Thanks to everyone for using this SPAM BOTS   
     ❤️MASTER ⚡🇨Ⓞ𝗗𝜩🇽⚡  !   
   
-                 ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─   
+               ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─   
   
    </h3>   
   
