@@ -1,6 +1,6 @@
 {  
-      "name": "☆ 🇨Ⓞ𝗗𝜩🇽 ☆.",  
-      "logo": "https://graph.org/file/fd6932a2f2c9ff0ac02a9.jpg",  
+      "name": "🕸️ 🇨Ⓞ𝗗𝜩🇽 💨",  
+      "logo": "https://te.legra.ph/file/63531adaa61fd0c91a556.jpg",  
       "keywords": [  
           "telegram",  
           "telethon",  
@@ -8,7 +8,7 @@
           "CoDeX",  
           "SpamBots"  
       ],  
-      "repository": "https://github.com/MrHacker5575/CoDeX_SPAM",  
+      "repository": "https://github.com/MrH4CK3R474/CDX-SPAM",  
   
   "env": {  
        "CMD_HNDLR": {  
@@ -68,12 +68,12 @@
         },  
          "SUDO_USER": {  
               "description": "",  
-              "value": "6123932615",  
+              "value": "",  
               "required": false 
           },  
         "OWNER_ID": {  
               "description": "",  
-              "value": "",  
+              "value": "6321280493",  
               "required": true  
           },  
           "HEROKU_API_KEY": {  
