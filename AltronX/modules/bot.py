@@ -20,10 +20,10 @@ from telethon import events
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"»⚡ 🇨Ⓞ𝗗𝜩🇽💨", parse_mode=None, link_preview=None)
+        altron = await e.reply(f"»🕸️ 🇨Ⓞ𝗗𝜩🇽💨", parse_mode=None, link_preview=None)
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"⚡ 🇨Ⓞ𝗗𝜩🇽 💨")
+        await altron.edit(f"🕸️ 🇨Ⓞ𝗗𝜩🇽 💨")
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -38,7 +38,7 @@ async def ping(e):
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"𝐁𝐄𝐓𝐀 𝐑𝐔𝐊 𝐉𝐀 1 𝐌𝐢𝐧")
+        await e.reply(f"RUK JA REFRESH HONE DE")
         try:
             await MK1.disconnect()
         except Exception:
