@@ -7,16 +7,16 @@ from telethon.tl.functions.users import GetFullUserRequest
 from telethon import events
 
 
-@MK1.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK2.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK3.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK4.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK5.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK6.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK7.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK8.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK9.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK10.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@MK1.on(events.NewMessage(incoming=True, pattern=r"\%sCDX(?: |$)(.*)" % hl))
+@MK2.on(events.NewMessage(incoming=True, pattern=r"\%sCDX(?: |$)(.*)" % hl))
+@MK3.on(events.NewMessage(incoming=True, pattern=r"\%sCDX(?: |$)(.*)" % hl))
+@MK4.on(events.NewMessage(incoming=True, pattern=r"\%sCDX(?: |$)(.*)" % hl))
+@MK5.on(events.NewMessage(incoming=True, pattern=r"\%sCDX(?: |$)(.*)" % hl))
+@MK6.on(events.NewMessage(incoming=True, pattern=r"\%sCDX(?: |$)(.*)" % hl))
+@MK7.on(events.NewMessage(incoming=True, pattern=r"\%sCDX(?: |$)(.*)" % hl))
+@MK8.on(events.NewMessage(incoming=True, pattern=r"\%sCDX(?: |$)(.*)" % hl))
+@MK9.on(events.NewMessage(incoming=True, pattern=r"\%sCDX(?: |$)(.*)" % hl))
+@MK10.on(events.NewMessage(incoming=True, pattern=r"\%sCDX(?: |$)(.*)" % hl))
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
